@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main ()
+{
+	int d=0;
+	int x;
+	
+	printf("Digite el ultimo numero de la lista:");
+	scanf("%d", &x);
+	while(d%2 ==1||d<x)
+	{
+		printf("%d\n", d +1);
+		d=d+2;
+	}
+	
+	return 0;
+}
