@@ -1,0 +1,23 @@
+//imprime 10 números consecutivos, comenzando desde cualquier número
+#include <stdio.h>
+
+int main()
+ {
+ 	while (1)
+	{
+ 	
+ 		{
+    int n,i;
+    printf("Ingresa el número inicial: ");
+    scanf("%d", &n);
+
+    for (i = n; i < n + 10; i++) 
+		{
+        	printf("%d ", i);
+  		}
+
+    printf("\n");
+		}
+	}
+
+} 
