@@ -8,7 +8,7 @@ int main()
  	
  		{
     int n,i;
-    printf("Ingresa el número inicial: ");
+    printf("Ingresa el numero inicial: ");
     scanf("%d", &n);
 
     for (i = n; i < n + 10; i++) 
