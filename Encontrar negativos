@@ -1,0 +1,24 @@
+//Programa que recibe números hasta encontrar uno negativo, acaba hasta que se digite un número negativo
+#include <stdio.h>
+
+int main() {
+    int numero;
+
+    while (1)
+	{
+        printf("Ingresa un numero: ");
+        scanf("%f", &numero);
+
+        if (numero < 0) 
+			{
+        		printf("Numero negativo.\n");
+            	break;
+        	} 
+				else 
+				{
+            		printf("Ingresa otro numero.\n");
+        		}
+    }
+
+    return 0;
+}
