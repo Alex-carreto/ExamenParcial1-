@@ -1,4 +1,4 @@
-//Obtiene las tablas de multiplicar de un número que tu quieras
+//Obtiene las tablas de multiplicar de un número hasta el multiplo que tu quieras
 #include <stdio.h>
 #include <math.h>
 
