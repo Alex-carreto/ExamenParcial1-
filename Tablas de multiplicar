@@ -1,21 +1,22 @@
 //Obtiene las tablas de multiplicar de un número hasta el multiplo que tu quieras
 #include <stdio.h>
-#include <math.h>
-
 int main ()
 {
-	int x;
+	int numero;
 	int y;
-	printf("Digite el numero que quieras sus tablas de multiplicar:");
-	scanf("%d",&x);
+	
+	printf("Ingrese un numero:");
+	scanf("%d", &numero);
 	printf ("Digite hasta que numero quieres sus multiplos:");
 	scanf("%d",&y);
 	printf ("\n");
 	
-	printf("Tablas de multiplicar del %d\n", x);
-		for (int i=1; i<=y; i++)
-		{
-			printf("%d x %d = %d\n", x, i, x*i);
-		}
+	printf("Tabla de multiplicar de %d:\n", numero);
+	int i =1;
+	while (i<=y)
+	{
+		printf("%d x %d = %d\n", numero, i, numero *i);
+		i++;
+	}
 	return 0;
 }
